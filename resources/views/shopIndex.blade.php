@@ -1,8 +1,6 @@
-@extends('poligonDesign/Eshopper.header')
-@extends('poligonDesign/Eshopper.footer')
+@extends('layouts.shopApp')
 
-
-@yield('header')
+@section('pageContent')
 <section id="slider"><!--slider-->
     <div class="container">
         <div class="row">
@@ -758,4 +756,4 @@
         </div>
     </div>
 </section>
-@yield('footer')
+@endsection
