@@ -14,4 +14,11 @@ class poligonController extends Controller
         return view('shopIndex', $data);
 
     }
+
+    public function login(){
+
+        //$data = array('username' => 'temo', 'email' => 'temoyusifov@gmail.com');
+        return view('shopLogin');
+
+    }
 }
