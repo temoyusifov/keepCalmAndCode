@@ -1,4 +1,4 @@
-
+@section('footer')
 <footer id="footer"><!--Footer-->
     <div class="footer-top">
         <div class="container">
@@ -167,3 +167,4 @@
 <script src="{{ URL::asset('apptools/js/main.js') }}"></script>
 </body>
 </html>
+@endsection
