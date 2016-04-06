@@ -1,3 +1,4 @@
+@section('header')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -143,3 +144,4 @@
         </div>
     </div><!--/header-bottom-->
 </header><!--/header-->
+@endsection
