@@ -1,5 +1,5 @@
 
-	@section('shopHomePage')
+	@yield('header')
 	<section id="slider"><!--slider-->
 		<div class="container">
 			<div class="row">
@@ -755,4 +755,4 @@
 			</div>
 		</div>
 	</section>
-	@endsection
+	@yield('footer')
