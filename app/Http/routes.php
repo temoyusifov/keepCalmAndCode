@@ -23,4 +23,8 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 
 
-Route::get('/poligon', 'poligonController@index');
+Route::get('/shopHomePage', 'poligonController@index'); // Index page
+
+Route::get('/shopLoginPage', 'poligonController@login'); // Login Page
+
+Route::get('/shopCartPage', 'poligonController@cart');
