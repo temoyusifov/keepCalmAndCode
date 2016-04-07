@@ -48,4 +48,11 @@ class poligonController extends Controller
         return view('productDetails');
 
     }
+
+    public function contacts(){
+
+        //$data = array('username' => 'temo', 'email' => 'temoyusifov@gmail.com');
+        return view('shopContactPage');
+
+    }
 }
