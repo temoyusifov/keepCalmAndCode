@@ -25,7 +25,7 @@ class poligonController extends Controller
     public function cart(){
 
         //$data = array('username' => 'temo', 'email' => 'temoyusifov@gmail.com');
-        return view('shopLogin');
+        return view('shopCart');
 
     }
 
