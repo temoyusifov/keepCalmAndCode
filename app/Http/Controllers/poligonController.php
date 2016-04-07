@@ -55,4 +55,11 @@ class poligonController extends Controller
         return view('shopContactPage');
 
     }
+
+    public function checkout(){
+
+        //$data = array('username' => 'temo', 'email' => 'temoyusifov@gmail.com');
+        return view('shopCheckoutPage');
+
+    }
 }

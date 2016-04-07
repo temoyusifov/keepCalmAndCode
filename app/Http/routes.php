@@ -36,3 +36,5 @@ Route::get('/shopPaginationPage', 'poligonController@shopPagination'); // Pagina
 Route::get('/shopDetailsPage', 'poligonController@productDetails'); // Product details Page
 
 Route::get('/shopContactPage', 'poligonController@contacts'); // Product details Page
+
+Route::get('/shopCheckoutPage', 'poligonController@checkout'); // Checkout Page

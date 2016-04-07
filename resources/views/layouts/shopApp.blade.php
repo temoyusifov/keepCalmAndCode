@@ -118,7 +118,7 @@
                                 <ul role="menu" class="sub-menu">
                                     <li><a href="/shopPaginationPage">Products</a></li>
                                     <li><a href="/shopDetailsPage">Product Details</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="/shopCheckoutPage">Checkout</a></li>
                                     <li><a href="/shopCartPage">Cart</a></li>
                                     <li><a href="/shopLoginPage">Login</a></li>
                                 </ul>
