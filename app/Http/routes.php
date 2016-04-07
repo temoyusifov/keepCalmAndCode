@@ -20,6 +20,8 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
+Route::get('/404', 'poligonController@pageNotFound');
+
 /////////////////////---------------SELF CREATED ROUTS----------------//////////////////////
 
 Route::get('/shopHomePage', 'poligonController@index'); // Index page
@@ -29,3 +31,5 @@ Route::get('/shopLoginPage', 'poligonController@login'); // Login Page
 Route::get('/shopCartPage', 'poligonController@cart'); // Cart page
 
 Route::get('/shopPaginationPage', 'poligonController@shopPagination'); // Pagination Page
+
+Route::get('/shopDetailsPage', 'poligonController@productDetails'); // Product details Page

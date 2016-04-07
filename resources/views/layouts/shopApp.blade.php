@@ -18,7 +18,7 @@
     <script src="{{ URL::asset('apptools/js/html5shiv.js') }}"></script>
     <script src="{{ URL::asset('js/respond.min.js') }}"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="{{ URL::asset('apptools/images/ico/favicon.ico') }}">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ URL::asset('apptools/images/ico/apple-touch-icon-144-precomposed.png') }}">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ URL::asset('apptools/images/ico/apple-touch-icon-114-precomposed.png') }}">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ URL::asset('apptools/images/ico/apple-touch-icon-72-precomposed.png') }}">

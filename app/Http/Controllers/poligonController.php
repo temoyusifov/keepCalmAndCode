@@ -8,6 +8,12 @@ use App\Http\Requests;
 
 class poligonController extends Controller
 {
+    public function pageNotFound(){
+
+        return view('404');
+
+    }
+
     public function index(){
 
         $data = array('username' => 'temo', 'email' => 'temoyusifov@gmail.com');
@@ -33,6 +39,13 @@ class poligonController extends Controller
 
         //$data = array('username' => 'temo', 'email' => 'temoyusifov@gmail.com');
         return view('shopPagination');
+
+    }
+
+    public function productDetails(){
+
+        //$data = array('username' => 'temo', 'email' => 'temoyusifov@gmail.com');
+        return view('productDetails');
 
     }
 }
